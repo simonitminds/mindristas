@@ -2,7 +2,7 @@ import Config
 
 # Configure your database
 config :mindristas, Mindristas.Repo,
-  username: "postgres",
+  username: "changeme",
   password: "postgres",
   hostname: "localhost",
   database: "mindristas_dev",

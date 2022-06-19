@@ -21,6 +21,7 @@ RUN apt-get update \
     #
      # Install bash tree
     && apt-get -y install --no-install-recommends tree \
+    && apt-get -y install --no-install-recommends inotify-tools \
     # Install git iproute2, procps, lsb-release (useful for CLI installs)
     && apt-get -y install --no-install-recommends git iproute2 procps iproute2 lsb-release ca-certificates \
     #
